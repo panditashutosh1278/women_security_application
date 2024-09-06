@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:contentDescription="@string/scrollview"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+        <ImageView
+            android:id="@+id/RegisterUser"
+            android:layout_width="330dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/imageview_content_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/registeruser"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/RegisterGuardian"
+            android:layout_width="330dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/imageview_content_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RegisterUser"
+            app:srcCompat="@drawable/registerguardian" />
+
+        <ImageView
+            android:id="@+id/viewRegistered"
+            android:layout_width="330dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/imageview_content_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RegisterGuardian"
+            app:srcCompat="@drawable/viewregisterd" />
+
+        <TextView
+            android:id="@+id/locationTextView"
+            android:layout_width="330dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewRegistered" />
+
+        <ImageView
+            android:id="@+id/SOS"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:contentDescription="@string/imageview_content_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locationTextView"
+            app:srcCompat="@drawable/sos" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:elevation="50dp"
+            app:cardBackgroundColor="@color/lightpink"
+            app:cardCornerRadius="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SOS">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/callHelpline"
+                    android:layout_width="161dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.076"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/womenhelpline2" />
+
+                <ImageView
+                    android:id="@+id/callPolice"
+                    android:layout_width="161dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/callHelpline"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/callHelpline"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/police" />
+
+                <ImageView
+                    android:id="@+id/NearByHospital"
+                    android:layout_width="161dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/CallAmbulance"
+                    app:layout_constraintTop_toBottomOf="@+id/callPolice"
+                    app:srcCompat="@drawable/nearbyhospital" />
+
+                <ImageView
+                    android:id="@+id/TipsToEscape"
+                    android:layout_width="161dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/NearByHospital"
+                    app:srcCompat="@drawable/tips1" />
+
+                <ImageView
+                    android:id="@+id/TipsWomenSafety"
+                    android:layout_width="161dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CallAmbulance"
+                    app:srcCompat="@drawable/tips2" />
+
+                <ImageView
+                    android:id="@+id/CallAmbulance"
+                    android:layout_width="161dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/callHelpline"
+                    app:srcCompat="@drawable/callambulance" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

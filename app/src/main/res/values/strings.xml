@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WomenSecurity</string>
+    <string name="btnLogin">BtnRegisterUser</string>
+    <string name="add_your_number">Add your Number</string>
+    <string name="add_guardian_number">Add Guardian Number</string>
+    <string name="view_registered">View Registered</string>
+    <string name="user_name">User Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="save">Save</string>
+    <string name="guardian_name">Guardian Name</string>
+    <string name="scrollview">scrollview to scroll the screen</string>
+    <string name="imageview_content_description">imageview content description</string>
+    <string name="textview">TextView </string>
+
+
+    <string name="tips1">1.Woman must have all the Emergency numbers with them and whatsapp also if possible so that they can immediately tell to their Family members and Police.</string>
+    <string name="tips2">2.Hold Your bag as tightly as you can when you are taking public transport.You can use it to hit your predator.</string>
+    <string name="tip3">3.When you are walking on a road,keep your mobile phone handy but avoid using it.Being on phone makes you less alert.</string>
+    <string name="tip4">4.When you are traveling in a auto alone,make sure you share auto number with someone in your family even if its during the day.</string>
+    <string name="tip5">5.Similarly,if you have booked a cab,always share your coordinates with Someone.</string>
+    <string name="tip6">6.When in office,avoid going to isolated areas with no CCTV cameras.</string>
+    <string name="tip7">7.If you have parked your car,always look underneath,especially at night or at a less-crowded area.</string>
+    <string name="TTE1">1. What should a woman do if she finds herself alone in the company of a strange male as she prepares to enter a lift in a High Rise apartment late at night
+                        Experts Say: Enter the lift If you need to reach the 13th floor, press all the buttons up to your destination. No one will dare attack you in a lift that stops on every floor.</string>
+    <string name="TTE2">2. What to do if a stranger tries to attack you when you are alone in your house, run into the kitchen.
+                        Experts Say: You alone know where the chilli powder and turmeric are kept. And where the knives and plates are. All these can be turned into deadly weapons. If nothing else, start throwing plates and utensils all over. Let them break. Scream. Remember that noise is the greatest enemy of a molester. He does not want to be caught.</string>
+    <string name="TTE3">3. Taking an Auto or Taxi at Night.
+                        Experts Say: Before getting into an auto at night, note down its registration number. Then use the mobile to call your family or friend and pass on the details to them in the language the driver understands. Even if no one answers your call, pretend you are in a conversation. The driver now knows someone has his details and he will be in serious trouble if anything goes wrong. He is now bound to take you home safe and sound. A potential attacker is now your de facto protector.</string>
+    <string name="TTE4">4. What if the driver turns into a street he is not supposed too and you feel you are entering a danger zone.
+                        Experts Say: Use the handle of your purse or your stole  to wrap around his neck and pull him back. Within seconds, he will feel choked and helpless. In case you do not have a purse or stole just pull him back by his collar. The top button of his shirt would then do the same trick.
+</string>
+    <string name="TTE5">5. If you are stalked at night.
+                        Expert Say: Enter a shop or a house and explain your predicament. If it is night and shops are not open, go inside an ATM box. ATM centres always have close circuit television. Fearing identification, no one will dare attack you.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps1">MapsActivity1</string>
+
+</resources>
